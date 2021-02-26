@@ -154,6 +154,19 @@ input:focus {
     height: 5.5rem;
     border-bottom: 1px dashed #695e54;
 }
+.tab-content .col-md-4 {
+    padding: 0 25px;
+}
+
+.tab-content .col-md-4 > div {
+    padding: 15px 0;
+    border-bottom: 1px solid #fecc00;
+}
+
+.tab-content .col-md-4 > div p {
+    font-size: 12px;
+    text-align: right;
+}
 
 .tab-title {
     position: relative;
@@ -184,10 +197,18 @@ input:focus {
     color: #5d5147;
 }
 
+.main-thumnail {
+    padding: 0 5px 0 10px;
+}
 .main-title {
     font-size: 1.5rem;
     font-weight: bold;
 }
+.content-title {
+    margin: .5rem 0;
+    font-size: 14px;
+}
+
 
 /* footer */
 .footer-bg {
